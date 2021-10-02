@@ -3,3 +3,6 @@ allowed-players: ""
 
 #Players who wont get the "onJoin" message (separate with ",")
 blacklist-join-msg: ""
+
+#reports (please do not mess with! Plugin will automatically remove and add the values stored here!)
+
