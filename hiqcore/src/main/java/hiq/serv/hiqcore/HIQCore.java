@@ -40,17 +40,20 @@ public class HIQCore extends JavaPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if(command.toString() == "version") {
+            if(sender instanceof Player) {
+                Player p = (Player) sender;
 
-        if(sender instanceof Player) {
-            Player p = (Player) sender;
-
-            if(allowedplayers().contains(p.getUniqueId().toString())) {
-                p.sendMessage("HIQ Core Version 1.0 [Alpha]");
-            } else {
-                System.out.println("Player doesn't have sufficient permissions");
+                if(allowedplayers().contains(p.getUniqueId().toString())) {
+                    p.sendMessage("HIQ Core Version 1.0 [Alpha]");
+                } else {
+                    System.out.println("Player doesn't have sufficient permissions");
+                }
             }
         }
 
         return true;
     }
+
+
 }
