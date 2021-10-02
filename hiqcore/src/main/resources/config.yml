@@ -6,3 +6,5 @@ blacklist-join-msg: ""
 
 #reports (please do not mess with! Plugin will automatically remove and add the values stored here!)
 
+reports:
+  total:
