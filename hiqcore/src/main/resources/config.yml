@@ -1,2 +1,5 @@
 #List the players in here that are allowed to use the plugins commands! (separate with ',')
 allowed-players: ""
+
+#Players who wont get the "onJoin" message (separate with ",")
+blacklist-join-msg: ""

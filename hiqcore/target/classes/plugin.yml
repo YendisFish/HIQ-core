@@ -1,5 +1,5 @@
 name: HIQCore
-version: '1.0 Official'
+version: '1.2 Official'
 main: hiq.serv.hiqcore.HIQCore
 api-version: 1.17
 prefix: HIQ-Core
@@ -7,4 +7,10 @@ authors: [ heyyimquinn ]
 commands:
   version:
     description: version
+    usage: /<command>
+  evolve:
+    description: evolve
+    usage: /<command>
+  rules:
+    description: List the rules
     usage: /<command>
