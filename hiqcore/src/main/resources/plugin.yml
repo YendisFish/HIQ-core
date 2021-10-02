@@ -8,3 +8,6 @@ commands:
   version:
     description: version
     usage: /<command>
+  evolve:
+    description: evolve
+    usage: /<command>
